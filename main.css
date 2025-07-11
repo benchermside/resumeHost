@@ -14,7 +14,7 @@
 .bodyClass {
     display: flex;
     width: 100%;
-    height: max(100vh, 105vw);
+    height: max(100vh, fit-content);
     border: none;
     margin: 0;
 }
@@ -37,8 +37,8 @@
 
 .LinkBox{
     background-color: lightgreen;
-    height: fit-content;
-    width: 45vw;
+    height: fit;
+    width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
