@@ -77,12 +77,16 @@
 }
 
 .resumeImage{
-    width: 80vw;
-    height: 103.5vw;
+    width: 850px;
+    height: 1100px;
     animation: appear 3s linear;
     animation-fill-mode: forwards;
     animation-delay: 2s;
     opacity: 0;
+    border: none;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 
